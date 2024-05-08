@@ -1,0 +1,20 @@
+body {
+	margin: 20px;
+	background-color: gery;
+}
+p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+div {
+	border:2px solid black;
+	text-align:center;
+	margin: 4px ;
+}
+#div5 {
+	border: 0px;
+}
+table, th, td {
+  border:1px solid black;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>My Calculator</title>
+    </head>
+    <body>
+        <div class="calculator">
+            <h1 style="text-align: center;">
+                MY CALCULATOR
+            </h1>
+            <input id="expression" type="text" class="expression">
+            <table class="rows">
+                <tr class="row">
+                    <th><button onclick="clean()"><img src="clear.png"></button></th>
+                    <th><button onclick="square()"><img style="width:29%; height: 29%;" src="square.png"></button></th>
+                    <th><button onclick="square_root()"><img style="width:31%; height: 31%;" src="square root.png"></button></th>
+                    <th><button onclick="last()"><img src="erase.png"></button></th>
+                </tr>
+                <tr class="row">
+                    <th><button onclick="append('7')"><img src="seven.png"></button></th>
+                    <th><button onclick="append('8')"><img src="eight.png"></button></th>
+                    <th><button onclick="append('9')"><img src="nine.png"></button></th>
+                    <th><button onclick="append('+')"><img src="plus.png"></button></th>
+                </tr>
+                <tr class="row">
+                    <th><button onclick="append('4')"><img src="four.png"></button></th>
+                    <th><button onclick="append('5')"><img src="five.png"></button></th>
+                    <th><button onclick="append('6')"><img src="six.png"></button></th>
+                    <th><button onclick="append('-')"><img src="minus.png"></button></th>
+                </tr>
+                <tr class="row">
+                    <th><button onclick="append('1')"><img src="one.png"></button></th>
+                    <th><button onclick="append('2')"><img src="two.png"></button></th>
+                    <th><button onclick="append('3')"><img src="three.png"></button></th>
+                    <th><button onclick="append('x')"><img src="into.png"></button></th>
+                </tr>
+                <tr class="row">
+                    <th><button onclick="append('0')"><img src="zero.png"></button></th>
+                    <th><button onclick="append('.')"><img src="point.png"></button></th>
+                    <th><button onclick="find()"><img src="equal to.png"></button></th>
+                    <th><button onclick="append('/')"><img src="divide.png"></button></th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

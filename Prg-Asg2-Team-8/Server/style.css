@@ -1,0 +1,25 @@
+html, body {
+    background-color:white;
+    height: 95%;
+}
+.calculator {
+    height: 90%;
+}
+.expression {
+    width: 100%;
+    height: 10%;
+    font-size: xx-large;
+    text-align: right;
+}
+.rows {
+    width: 100%;
+    height: 50%;
+    border-width: thick;
+}
+button {
+    width: 100%;
+}
+img {
+    height: 35%;
+    width: 35%;
+}
